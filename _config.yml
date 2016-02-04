@@ -17,3 +17,8 @@ github_username:  uldissturms
 
 # Build settings
 markdown: kramdown
+
+analytics:
+  provider: google
+  google:
+    tracking_id: 'UA-35819954-3'
