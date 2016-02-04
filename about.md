@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a passionate .NET application developer, fanboy of BDD and TDD. I'm expert in C# and a fast learner who follows best practices such as SOLID (Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+During my more than 9 year experience being a developer I have:
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+ - reduced memory footprint
+ - optimized T-SQL queries
+ - tested legacy code by applying heavy refactorings
+ - hard deadlines being team lead
+
+Today I love to skyrocket application performance by coming up with crazy ideas and suggestions. Reach out if you want to talk technology.
