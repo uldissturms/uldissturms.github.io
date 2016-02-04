@@ -4,10 +4,6 @@ title: "getting started with test-kitchen"
 categories: test-kitchen chef berkshelf infrastructure-code
 ---
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/yOFK2KpzSQ6nXf" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"> </iframe>
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/snZeEDKo9Pc" frameborder="0"></iframe>
-
 One of the easiest ways to get started is by using [Berkshelf](http://berkshelf.com/) but here is also where most of the problems come in - so I decided to write a blog post on it and do a presentation on my findings.
 
 It might be easy to get berkshelf via [chef-dk](https://downloads.chef.io/chef-dk/) but that’s not much fun for few reasons: not a clear understanding how bits fit together, locked into a concrete version of berkshelf - things can start to break if updated on their own, not the latest, bleeding edge version by definition - which is not much fun.
@@ -260,3 +256,7 @@ end
 Chefspec can come in handy when testing combinations of data bags and commands running on multiple platforms, however I would only use them if something's hard or takes very long time to test using integration tests. Integration tests give the most confidence and aren't tied to implementation - verifies that implementation fulfils the contract. This makes implemtation easy to change without breaking tests.
 
 All code commits for this example can be found on [github](https://github.com/uldissturms/test) presentation on [slidshare](http://www.slideshare.net/UldisSturms/testkitchen-keynote) and screencast on [youtube](https://www.youtube.com/watch?v=snZeEDKo9Pc).
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/yOFK2KpzSQ6nXf" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"> </iframe>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/snZeEDKo9Pc" frameborder="0"></iframe>

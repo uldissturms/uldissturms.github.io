@@ -68,9 +68,6 @@ sudo docker build -t uldissturms/nodejs . # replace uldissturms with your userna
 sudo docker run -d uldissturms/nodejs # d for daemon
 {% endhighlight %}
 
-![image](https://38.media.tumblr.com/4d9013b2d38991ada4d4b460bd5bb494/tumblr_inline_msaan0jfY01qz4rgp.png)
-![image](https://33.media.tumblr.com/5f40252a2ae804ae63aea89a02824a0e/tumblr_inline_msaau5PQ7Y1qz4rgp.png)
-
 To leave nodeJS app running we must start container as daemon. To connect to container once it is running we can by grabbing the identifier of container from list of active containers and then attaching to it:
 
 {% highlight bash %}
@@ -81,9 +78,8 @@ Now we can connect to the nodeJS app and see respose:
 
 {% highlight bash %}
 curl http://localhost:49161/ # will output response from nodeJS.
-![image](https://33.media.tumblr.com/a163f40bb89c083c11ea8b9fc175cd66/tumblr_inline_msaawfT2L01qz4rgp.png)
-
 {% endhighlight %}
+
 Let's assume we would like full-blown development nodeJS container. We can go and install all tools, services, etc.
 
 {% highlight bash %}
@@ -127,15 +123,7 @@ I managed to get spark working by commenting out running hadoop related stuff fr
 #RUN tar -zxvf hadoop-1.1.2-bin.tar.gz -C /opt/
 {% endhighlight %}
 
-Running Spark:
-
-![image](https://38.media.tumblr.com/844b0eb575627d9d03b054ce36097ef4/tumblr_inline_ms9hwqC1Rn1qz4rgp.png)
-
-Executing simple queries on Spark using Scala (.cache()):
-
-  ![image](https://38.media.tumblr.com/81dfe922179b7390313b713081a972f1/tumblr_inline_ms9hyvN2zi1qz4rgp.png)
-
-  Things I liked about Docker:
+Things I liked about Docker:
 
  1.  In case of build failure it continues where it stopped – previously downloaded packages are still there.
  2.  Convenient way of setting up infrastructure – much easier and quicker for developer to get up and running than puppet, chef, cfengine.

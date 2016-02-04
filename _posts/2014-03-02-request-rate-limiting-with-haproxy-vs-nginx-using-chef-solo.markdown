@@ -42,9 +42,6 @@ This will bring up two machines:
 And expose HAProxy 80 port to host port 8081 so that the web site can be accessed through http://localhost:8081/.
 
 Lets start by testing HAProxy.
-
-![image](https://31.media.tumblr.com/3f7ab9ff5a340d7d1d4f4afeeb82e6ff/tumblr_inline_mxr6d8YzdJ1s8znfz.png)
-
 To test the performance of web site we will use [ApacheBench](http://en.wikipedia.org/wiki/ApacheBench).
 
 {% highlight bash %}
