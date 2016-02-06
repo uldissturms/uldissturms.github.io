@@ -11,5 +11,7 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  <div class="post-feedback">
+    {% include twitter-plug.html username=site.twitter_username %}
+  </div>
 </article>
