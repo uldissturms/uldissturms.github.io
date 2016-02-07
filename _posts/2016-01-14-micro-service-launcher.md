@@ -11,4 +11,4 @@ Most of the time at Markel Digital we use microservices to deliver software. Par
 
 ![](/images/micro-launcher/services.svg "services fully integrated")
 
-Read more on our markel digital blog [http://www.markeldigital.io](http://www.markeldigital.io).
+Read more on our markel digital blog [http://www.markeldigital.io/2016/01/14/micro-service-launcher](http://www.markeldigital.io/2016/01/14/micro-service-launcher).

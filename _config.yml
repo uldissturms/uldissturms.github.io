@@ -17,6 +17,7 @@ github_username:  uldissturms
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 analytics:
   provider: google
