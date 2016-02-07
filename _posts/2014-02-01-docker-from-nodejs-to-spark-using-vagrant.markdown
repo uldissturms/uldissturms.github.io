@@ -2,7 +2,7 @@
 layout: post
 title:  "docker - from nodejs to spark using vagrant"
 date:   2014-02-01 12:10:10 +0000
-categories: docker nodejs spark vagrant
+tags: docker nodejs spark vagrant
 ---
 
 [Docker](https://www.docker.io/) is a shipping container system for code. Developer: Build Once, Run Anywhere. Operator: Configure Once, Run Anything. Integration in [Chef](http://www.opscode.com/chef), [Puppet](http://puppetlabs.com/), [Vagrant](http://www.vagrantup.com/) and [OpenStack](http://www.openstack.org/).

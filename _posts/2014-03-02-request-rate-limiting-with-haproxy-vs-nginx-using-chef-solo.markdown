@@ -2,7 +2,7 @@
 layout: post
 title:  "request rate limiting with haproxy vs nginx using chef solo"
 date:   2014-03-03 11:10:36 +0000
-categories: request rate limiting haproxy nginx chef solo
+tags: request rate limiting haproxy nginx chef solo
 ---
 
 When consumer base for API or web site grows, the number of potential abusers will eventually increase. Whether on purpose or not it may cause problems for legit consumers by slowing down the performance or even taking down the servers. In case of a web site it’s much easier to predict the absolute maximum requests per second/minute threshold. It wouldn’t make sense for someone to browse the page for more than 2-3 times a second including accidental refresh hits (F5). I’m speaking here about page views, not the concurrent calls to backend (css files, javascript, multiple sections loaded from different paths using jQuery).

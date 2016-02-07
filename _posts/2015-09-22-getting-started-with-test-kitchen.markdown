@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "getting started with test-kitchen"
-categories: test-kitchen chef berkshelf infrastructure-code
+date:   2015-09-22 10:10:36 +0000
+tags: test-kitchen chef berkshelf infrastructure-code
 ---
 
 One of the easiest ways to get started is by using [Berkshelf](http://berkshelf.com/) but here is also where most of the problems come in - so I decided to write a blog post on it and do a presentation on my findings.
