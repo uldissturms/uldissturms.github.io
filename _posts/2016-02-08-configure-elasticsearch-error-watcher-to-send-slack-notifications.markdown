@@ -28,6 +28,7 @@ slack notification template
 
 This is a slack notification template that will get you going.
 {% highlight json %}
+{% raw %}
 {
     "trigger": {
         "schedule": {
@@ -85,4 +86,5 @@ This is a slack notification template that will get you going.
         }
     }
 }
+{% endraw %}
 {% endhighlight %}
