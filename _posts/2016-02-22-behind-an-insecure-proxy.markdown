@@ -60,6 +60,15 @@ setx /s HTTPS_PROXY http://proxy:port/ /m
 setx /s NO_PROXY .localhost,.domain.local /m
 {% endhighlight %}
 
+settings.json (visual studio code)
+----------------------------------
+{% highlight json %}
+{
+  "http.proxy": "http://proxy:port/",
+  "http.proxyStrictSSL": false
+}
+{% endhighlight %}
+
 add certificate to keychain (java)
 ----
 {% highlight shell %}
