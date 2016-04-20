@@ -20,8 +20,8 @@ setting up environment
 {% highlight bash %}
 npm install react react-dom redux --save
 npm install mocha expect expect-jsx \
-            babel-register babel-preset-2015 \
-            babel-reset-react react-addons-test-utils --save-dev
+            babel-register babel-preset-es2015 \
+            babel-preset-react react-addons-test-utils --save-dev
 echo '{ "presets": ["react", "es2015"] }' > .babelrc
 {% endhighlight %}
 
