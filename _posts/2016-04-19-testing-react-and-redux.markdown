@@ -25,6 +25,17 @@ npm install mocha expect expect-jsx \
 echo '{ "presets": ["react", "es2015"] }' > .babelrc
 {% endhighlight %}
 
+{% highlight base %}
+src
+├── components
+│   ├── hello.jsx
+│   └── hello.test.js
+└── state
+    ├── namesReducer.js
+    ├── namesReducer.test.js
+    ├── store.js
+    └── store.test.js
+{% endhighlight %}
 component
 -------------------
 
@@ -150,4 +161,22 @@ describe('names reducer', () => {
     expect(state).toEqual({ names: []});
   });
 });
+{% endhighlight %}
+
+test results
+------------
+{% highlight js %}
+ component
+    ✓ renders name
+    ✓ renders component
+
+  names reducer
+    ✓ no greetings to Stranger
+
+  store
+    ✓ starts off with empty names array
+    ✓ adds a name when greet action processed
+
+
+  5 passing (39ms)
 {% endhighlight %}
