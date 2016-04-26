@@ -1,18 +1,17 @@
 ---
 layout: post
-title: testing react and redux
+title: testing redux react applications
 date: 2016-04-19 20:00:00 +000
-tags: testing react redux
+tags: testing redux react
 ---
 
-For a tipical react redux application there are four levels at which it makes sense to test:
+For a tipical redux react application there are three levels at which it makes sense to test:
 
 - components
-- store
 - reducers
 - end-to-end (ui integration tests)
 
-In this blog post I will cover __component__, __store__ and __reducer__ tests since end-to-end tests are normally written in an implementation agnostic way (e.g., selenium) and are covered well by others already.
+In this blog post I will cover __component__ and __reducer__ tests since end-to-end tests are normally written in an implementation agnostic way (e.g., selenium, webdriver) and are covered well by others already.
 
 setting up environment
 -----------------------
@@ -32,9 +31,7 @@ src
 │   └── hello.test.js
 └── state
     ├── namesReducer.js
-    ├── namesReducer.test.js
-    ├── store.js
-    └── store.test.js
+    └── namesReducer.test.js
 {% endhighlight %}
 component
 -------------------
@@ -94,37 +91,32 @@ const Hello = ({name}) => {
 export default Hello;
 {% endhighlight %}
 
-store
------
+reducer
+-------
 
-Store is a good place to test that dispatched actions are getting handled by the relevant reducers as expected.
+Since reducers are pure functions (have no side effects and only rely on parameter values) they are easy to test.
 
-### store.test.js
+### namesReducer.test.js
 {% highlight js %}
 import expect from 'expect';
-import {store} from './store';
+import namesReducer from './namesReducer';
 
-describe('store', () => {
-  it('starts off with empty names array', () => {
-    const state = store.getState();
-    expect(state).toEqual({ names: []});
-  });
-  it('adds a name after greet action processed', () => {
-    const action = { type: 'GREET', payload: { name: 'Steve' }};
-    store.dispatch(action);
-    const state = store.getState();
+const greet = name => {
+  return { type: 'GREET', payload: { name: name }};
+};
+
+describe('names reducer', () => {
+  it('greets', () => {
+    const state = namesReducer({ names: [] }, greet('Steve'));
     expect(state).toEqual({ names: ['Steve']});
+  });
+  it('no greetings to Stranger', () => {
+    const state = namesReducer({ names: [] }, greet('Stranger'));
+    expect(state).toEqual({ names: []});
   });
 });
 {% endhighlight %}
 
-### store.js
-{% highlight js %}
-import {createStore} from 'redux';
-import namesReducer from './namesReducer';
-
-export const store = createStore(namesReducer);
-{% endhighlight %}
 
 ### namesReducer.js
 {% highlight js %}
@@ -138,29 +130,8 @@ const namesReducer = (state = { names: [] },  action) => {
   }
   return state;
 };
+
 export default namesReducer;
-{% endhighlight %}
-
-reducer
--------
-
-In a case where reducer has many ways of processing an action a simple test that has no side effects can be written.
-
-### namesReducer.test.js
-{% highlight js %}
-import expect from 'expect';
-import namesReducer from './namesReducer';
-
-const greet = name => {
-  return { type: 'GREET', payload: { name: 'Stranger' }};
-};
-
-describe('names reducer', () => {
-  it('no greetings to Stranger', () => {
-    const state = namesReducer({ names: [] }, greet('Stranger'));
-    expect(state).toEqual({ names: []});
-  });
-});
 {% endhighlight %}
 
 test results
@@ -171,12 +142,8 @@ test results
     ✓ renders component
 
   names reducer
+    ✓ greets
     ✓ no greetings to Stranger
 
-  store
-    ✓ starts off with empty names array
-    ✓ adds a name when greet action processed
-
-
-  5 passing (39ms)
+  4 passing (39ms)
 {% endhighlight %}
