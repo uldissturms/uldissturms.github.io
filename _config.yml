@@ -26,3 +26,4 @@ analytics:
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from

@@ -3,6 +3,7 @@ layout: post
 title: testing redux react applications
 date: 2016-04-19 20:00:00 +000
 tags: testing redux react
+redirect_from: "/2016/04/19/testing-react-and-redux/"
 ---
 
 For a tipical redux react application there are three levels at which it makes sense to test:
