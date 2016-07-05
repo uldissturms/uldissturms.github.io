@@ -5,11 +5,11 @@ date: 2016-06-23 21:00:00 +000
 tags: testing tape reporters
 ---
 
-at the time of writing I prefer tap-bail
+at the time of writing I prefer tap-min
 
-- error message is always at the end of the test run
-- frees up resources after first fail (both computer and human - one thing to focus on)
-- console log statements still make it to the output to help with debugging
+- summary for passed tests
+- detailed failed test assertions
+- console log statements still make it to the output to help identify the issue
 
 lets take a look at possible alternatives and a quick comparison
 
@@ -145,10 +145,11 @@ tap-dot reporter
     x should be falsy
 {% endhighlight %}
 
-tap-bail reporter
+tap-min reporter
 -----------------
 
-- stops tests on first failure
+- minimalistic output
+- returns full details for failed tests
 
 {% highlight bash %}
 TAP version 13
@@ -164,6 +165,21 @@ not ok 2 should be falsy
     actual:   'is not okay'
     at: Test.t (/Users/uldis/git/playgrounds/tape-reporters/test.js:12:5)
   ...
+{% endhighlight %}
+
+tap-bail reporter
+-----------------
+
+- stops after first failed test
+
+{% highlight bash %}
+TAP version 13
+# is okay
+log: this test will be okay
+ok 1 should be truthy
+# is okay
+log: this test will fail
+not ok 2 should be falsy
 {% endhighlight %}
 
 tap-pessimist reporter
