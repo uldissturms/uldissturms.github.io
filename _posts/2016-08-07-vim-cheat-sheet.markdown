@@ -11,14 +11,14 @@ paste
 -----
 - ```"+p``` - paste from global buffer (clipboard)
 
-editing (insert mode)
+edit (insert mode)
 ---------------------
 - ```ctrl+n``` - auto-completion next
 - ```ctrl+p``` - auto-completion previous
 - ```ctrl+t``` - indent line
 - ```ctrl+d``` - outdent line
 
-editing (normal mode)
+edit (normal mode)
 ---------------------
 - ```.``` - repeat last command (insert is treated as a single command)
 - ```R``` - type over text
