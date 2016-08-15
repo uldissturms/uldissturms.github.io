@@ -13,15 +13,16 @@ paste
 
 edit (insert mode)
 ---------------------
-- ```ctrl+n``` - auto-completion next
-- ```ctrl+p``` - auto-completion previous
-- ```ctrl+t``` - indent line
-- ```ctrl+d``` - outdent line
+- ```<ctrl-n>``` - auto-completion next
+- ```<ctrl-p>``` - auto-completion previous
+- ```<ctrl-t>``` - indent line
+- ```<ctrl-d>``` - outdent line
 
 edit (normal mode)
 ---------------------
 - ```.``` - repeat last command (insert is treated as a single command)
 - ```R``` - type over text
+- ```vtc``` - visual to character (v can be replaced for any operator, c - for any character, see below)
 
 navigate
 ---------
@@ -35,10 +36,10 @@ navigate
 
 panes
 -----
-- ```ctrl+wv``` - split vertically
-- ```ctrl+ws``` - split horizontally
-- ```ctrl+wq``` - close
-- ```ctrl+wo``` - close all but current
+- ```<ctrl-w>v``` - split vertically
+- ```<ctrl-w>s``` - split horizontally
+- ```<ctrl-w>q``` - close
+- ```<ctrl-w>o``` - close all but current
 
 
 vit (visual inside tag)
