@@ -22,7 +22,12 @@ edit (normal mode)
 ---------------------
 - ```.``` - repeat last command (insert is treated as a single command)
 - ```R``` - type over text
-- ```vtc``` - visual to character (v can be replaced for any operator, c - for any character, see below)
+- ```vtc``` - visual to character, excluding the charcter (v can be replaced for any operator, c - for any character, see [below](#vit-visual-inside-tag))
+- ```vfc``` - visual to character, including the character (v can be replaced for any operator, c - for any character, see [below](#vit-visual-inside-tag))
+- ```J``` - join lines
+- ```d/<pattern>/e<enter>``` - delete from cursor to the end of match
+- ```y?<pattern>``` - copy from cursor to previous match
+- ```g/<pattern>/d``` - delete lines that match globally
 
 navigate
 ---------
@@ -43,7 +48,7 @@ panes
 
 
 vit (visual inside tag)
----
+-----------------------
 - v - operator, i - extent, t - object
 - operator is one of:
   - change
