@@ -17,6 +17,11 @@ edit (insert mode)
 - ```<ctrl-p>``` - auto-completion previous
 - ```<ctrl-t>``` - indent line
 - ```<ctrl-d>``` - outdent line
+- ```<ctrl-r>``` - paste from register (" - default register)
+- ```<ctrl-j>``` - insert a new line
+- ```<ctrl-h>``` - backspace
+- ```<ctrl-w>``` - delete a word backwards from cursor
+- ```<ctrl-o>``` - run a single normal command and return to insert mode
 
 edit (normal mode)
 ---------------------
@@ -38,6 +43,10 @@ navigate
 - ```*``` - next occurance of word under cursor
 - ```%``` - bounce between brackets, beginning and end of a single method
 - ```o``` - bounce between beginning and end of a visual block
+
+search
+------
+- ```q/``` - advanced search
 
 panes
 -----
