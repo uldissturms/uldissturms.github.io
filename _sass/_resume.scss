@@ -1,0 +1,9 @@
+#resume-personal + ul {
+  margin-left: 0px;
+  & li {
+    list-style: none;
+  }
+}
+#resume-jobs + ul > li dd p {
+  margin-top: 10px;
+}
