@@ -25,6 +25,6 @@ analytics:
   google:
     tracking_id: 'UA-35819954-3'
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
