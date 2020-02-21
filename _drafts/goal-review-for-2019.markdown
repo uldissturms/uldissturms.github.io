@@ -48,7 +48,12 @@ tags: goals review
 * creative coding with canvas & WebGL (https://frontendmasters.com/courses/canvas-webgl/)
 * introduction to elm (https://frontendmasters.com/courses/intro-elm/)
 * advanced elm (https://frontendmasters.com/courses/advanced-elm/)
-* code transformation and linting with ASTs (https://frontendmasters.com/courses/linting-asts/)
+* code transformation and linting with ASTs (https://frontendmasters.com/courses/linting-asts/) - done
+  * https://astexplorer.net/
+  * eslint plugins
+  * babel plugins
+  * codemods
+  * https://slides.com/kentcdodds/asts-workshop#/
 * interactive data visualization with D3.js (https://frontendmasters.com/courses/interactive-data-visualization-d3-js/) (stretch goal)
 
 ### acloud.guru
@@ -59,14 +64,14 @@ tags: goals review
 ## interviewing
 
 * https://www.interviewcake.com
-* https://interviewing.io/
+* https://interviewing.io/ - done
 * https://projecteuler.net/ (stretch goal)
 
 ## certifications
 
 ### AWS
 
-* advanced networking
+* advanced networking - done
 * architect professional
 * machine learning
 
