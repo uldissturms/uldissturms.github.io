@@ -59,12 +59,19 @@ tags: goals review
 ### acloud.guru
 
 * machine learning (https://acloud.guru/learn/aws-certified-machine-learning-specialty)
-* architect professional (https://acloud.guru/learn/aws-certified-solutions-architect-professional-2019)
+* architect professional (https://acloud.guru/learn/aws-certified-solutions-architect-professional-2019) - done
+
+### masterclass - extra
+
+* chris hadfield teaches space exploration
+* neil degrasse tyson teaches scientific thinking and communication
 
 ## interviewing
 
 * https://www.interviewcake.com
 * https://interviewing.io/ - done
+  * 6 pass
+  * 1 fail
 * https://projecteuler.net/ (stretch goal)
 
 ## certifications
