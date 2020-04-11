@@ -65,6 +65,9 @@ tags: goals review
 
 * chris hadfield teaches space exploration
 * neil degrasse tyson teaches scientific thinking and communication
+* chris voss teaches the art of negotiation
+* phill ivey teaches poker strategy
+* bob iger teaches business strategy and leadership
 
 ## interviewing
 
