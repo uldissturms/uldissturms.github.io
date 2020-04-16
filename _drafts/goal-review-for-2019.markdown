@@ -68,6 +68,7 @@ tags: goals review
 * chris voss teaches the art of negotiation
 * phill ivey teaches poker strategy
 * bob iger teaches business strategy and leadership
+* frank gehry teaches design and architecture
 
 ## interviewing
 
