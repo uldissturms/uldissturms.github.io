@@ -69,6 +69,7 @@ tags: goals review
 * phill ivey teaches poker strategy
 * bob iger teaches business strategy and leadership
 * frank gehry teaches design and architecture
+* anna wintour teaches creativity and leadership
 
 ## interviewing
 
