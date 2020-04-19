@@ -70,6 +70,7 @@ tags: goals review
 * bob iger teaches business strategy and leadership
 * frank gehry teaches design and architecture
 * anna wintour teaches creativity and leadership
+* howard schultz business leadership
 
 ## interviewing
 
