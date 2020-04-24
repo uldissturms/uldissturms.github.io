@@ -71,6 +71,7 @@ tags: goals review
 * frank gehry teaches design and architecture
 * anna wintour teaches creativity and leadership
 * howard schultz business leadership
+* joyce carol oates teaches the art of short story
 
 ## interviewing
 
