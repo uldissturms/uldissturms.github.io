@@ -72,6 +72,7 @@ tags: goals review
 * anna wintour teaches creativity and leadership
 * howard schultz business leadership
 * joyce carol oates teaches the art of short story
+* neil gaiman teaches the art of storytelling
 
 ## interviewing
 
