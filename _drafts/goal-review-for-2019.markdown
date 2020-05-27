@@ -73,6 +73,7 @@ tags: goals review
 * howard schultz business leadership
 * joyce carol oates teaches the art of short story
 * neil gaiman teaches the art of storytelling
+* sara blakely teaches self made entrepreneurship
 
 ## interviewing
 
