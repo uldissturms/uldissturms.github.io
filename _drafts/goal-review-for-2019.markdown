@@ -45,7 +45,9 @@ tags: goals review
 * the hard parts of servers & Node.js (https://frontendmasters.com/courses/servers-node-js/)
 * deep javascript foundations (https://frontendmasters.com/courses/deep-javascript-v3/)
 * design for developers (https://frontendmasters.com/courses/design-for-developers/)
-* creative coding with canvas & WebGL (https://frontendmasters.com/courses/canvas-webgl/)
+* creative coding with canvas & WebGL (https://frontendmasters.com/courses/canvas-webgl/) - done
+  * code: https://github.com/mattdesl/workshop-generative-art
+  * slides: https://static.frontendmasters.com/resources/2018-10-25-canvas-webgl/creative-coding.pdf
 * introduction to elm (https://frontendmasters.com/courses/intro-elm/)
 * advanced elm (https://frontendmasters.com/courses/advanced-elm/)
 * code transformation and linting with ASTs (https://frontendmasters.com/courses/linting-asts/) - done
