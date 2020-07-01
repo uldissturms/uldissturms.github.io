@@ -40,6 +40,10 @@ tags: goals review
 * 6.046J - design and analysis of algorithms
 * 6.849 - geometric folding algorithms: linkages, origami, polyhedra (stretch goal)
 
+### coursera - extra
+
+* [Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) - Dr. Keith Devlin (Stanford)
+
 ### frontend masters
 
 * the hard parts of servers & Node.js (https://frontendmasters.com/courses/servers-node-js/)
