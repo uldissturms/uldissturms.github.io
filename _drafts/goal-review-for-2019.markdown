@@ -36,7 +36,7 @@ tags: goals review
 
 ### MIT
 
-* 6.006 - algorithms (introduction) - finish problem sets
+* 6.006 - algorithms (introduction) - finish problem sets and recitations - done
 * 6.046J - design and analysis of algorithms
 * 6.849 - geometric folding algorithms: linkages, origami, polyhedra (stretch goal)
 
