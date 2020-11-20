@@ -13,6 +13,10 @@ This year I'm taking a different approach to my goals. I will add them as I go. 
 
 * beginning c++17: from novice to professional
 
+### games engines
+
+* [game engine black book: DOOM: Fabien Sanglard](https://fabiensanglard.net/gebbdoom/)
+
 ## courses
 
 ### coursera
